@@ -18,3 +18,5 @@ O botão "Nova Busca" permite que o usuário retorne à página inicial. 🔍
   
 ## Página Home
 Ao visualizar as informações do usuário pesquisado, é possível acessar seus repositórios públicos através da API do GitHub. O usuário pode retornar à página inicial clicando no link da barra de navegação com o texto "Trocar de usuário". 🏠
+
+## Acesse em: https://gitfinder-site.vercel.app/
