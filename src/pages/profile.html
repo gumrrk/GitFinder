@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="./src/svg/icon.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/profile.css">
+  <link rel="stylesheet" href="../styles/globalStyles.css">
+
+  <title>Git Finder - Perfil do Usuário</title>
+</head>
+
+<body>
+  <main>
+    <header class="header-profile">
+      <div class="header-div">
+        <a href="" id="a-icon-user" target="_blank"><img src="../svg/loading-img.svg" alt="Ícone do Usuário" id="icon-user"></a>
+        <div>
+          <h1><a href="" id="name-user" target="_blank">...</a></h1>
+          <p class="location-user">...</p>
+        </div>
+      </div>
+      <button id="button-change">Trocar de usuário</button>
+    </header>
+    <section class="section-posts" id="section-posts">
+      <div class="loading-div">
+        <h1>Carregando repositórios...</h1>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="../scripts/profile.js" defer></script>
+</body>
+
+</html>
